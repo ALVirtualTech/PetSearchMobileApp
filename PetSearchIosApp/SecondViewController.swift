@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  PetSearchIosApp
 //
-//  Created by Andrei Poliakov on 09.05.2019.
+//  Created by Andrei Poliakov on 13.05.2019.
 //  Copyright © 2019 Andrei Poliakov. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

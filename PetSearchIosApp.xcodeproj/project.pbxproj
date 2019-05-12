@@ -7,66 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84435B5022837E7100C53E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B4F22837E7100C53E0C /* AppDelegate.swift */; };
-		84435B5222837E7100C53E0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B5122837E7100C53E0C /* ViewController.swift */; };
-		84435B5522837E7100C53E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B5322837E7100C53E0C /* Main.storyboard */; };
-		84435B5822837E7100C53E0C /* PetSearchIosApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84435B5622837E7100C53E0C /* PetSearchIosApp.xcdatamodeld */; };
-		84435B5A22837E7500C53E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84435B5922837E7500C53E0C /* Assets.xcassets */; };
-		84435B5D22837E7500C53E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B5B22837E7500C53E0C /* LaunchScreen.storyboard */; };
-		84435B6822837E7500C53E0C /* PetSearchIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B6722837E7500C53E0C /* PetSearchIosAppTests.swift */; };
-		84435B7322837E7500C53E0C /* PetSearchIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B7222837E7500C53E0C /* PetSearchIosAppUITests.swift */; };
+		762D471B168DF31AC8FAECC0 /* Pods_PetSearchIosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */; };
+		84435B8D2288B6D900C53E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8C2288B6D900C53E0C /* AppDelegate.swift */; };
+		84435B8F2288B6D900C53E0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8E2288B6D900C53E0C /* FirstViewController.swift */; };
+		84435B912288B6D900C53E0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B902288B6D900C53E0C /* SecondViewController.swift */; };
+		84435B942288B6D900C53E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B922288B6D900C53E0C /* Main.storyboard */; };
+		84435B962288B6DC00C53E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84435B952288B6DC00C53E0C /* Assets.xcassets */; };
+		84435B992288B6DC00C53E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */; };
+		84435BA42288B6DD00C53E0C /* PetSearchIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BA32288B6DD00C53E0C /* PetSearchIosAppTests.swift */; };
+		84435BAF2288B6DD00C53E0C /* PetSearchIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BAE2288B6DD00C53E0C /* PetSearchIosAppUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84435B6422837E7500C53E0C /* PBXContainerItemProxy */ = {
+		84435BA02288B6DD00C53E0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84435B4422837E7100C53E0C /* Project object */;
+			containerPortal = 84435B812288B6D900C53E0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84435B4B22837E7100C53E0C;
+			remoteGlobalIDString = 84435B882288B6D900C53E0C;
 			remoteInfo = PetSearchIosApp;
 		};
-		84435B6F22837E7500C53E0C /* PBXContainerItemProxy */ = {
+		84435BAB2288B6DD00C53E0C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 84435B4422837E7100C53E0C /* Project object */;
+			containerPortal = 84435B812288B6D900C53E0C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84435B4B22837E7100C53E0C;
+			remoteGlobalIDString = 84435B882288B6D900C53E0C;
 			remoteInfo = PetSearchIosApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84435B4C22837E7100C53E0C /* PetSearchIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSearchIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84435B4F22837E7100C53E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84435B5122837E7100C53E0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84435B5422837E7100C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84435B5722837E7100C53E0C /* PetSearchIosApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSearchIosApp.xcdatamodel; sourceTree = "<group>"; };
-		84435B5922837E7500C53E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84435B5C22837E7500C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84435B5E22837E7500C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84435B6322837E7500C53E0C /* PetSearchIosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSearchIosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84435B6722837E7500C53E0C /* PetSearchIosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchIosAppTests.swift; sourceTree = "<group>"; };
-		84435B6922837E7500C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84435B6E22837E7500C53E0C /* PetSearchIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSearchIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84435B7222837E7500C53E0C /* PetSearchIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchIosAppUITests.swift; sourceTree = "<group>"; };
-		84435B7422837E7500C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.release.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.release.xcconfig"; sourceTree = "<group>"; };
+		84435B892288B6D900C53E0C /* PetSearchIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSearchIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84435B8C2288B6D900C53E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84435B8E2288B6D900C53E0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		84435B902288B6D900C53E0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84435B932288B6D900C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84435B952288B6DC00C53E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84435B982288B6DC00C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84435B9A2288B6DC00C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84435B9F2288B6DD00C53E0C /* PetSearchIosAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSearchIosAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84435BA32288B6DD00C53E0C /* PetSearchIosAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchIosAppTests.swift; sourceTree = "<group>"; };
+		84435BA52288B6DD00C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84435BAA2288B6DD00C53E0C /* PetSearchIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSearchIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84435BAE2288B6DD00C53E0C /* PetSearchIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchIosAppUITests.swift; sourceTree = "<group>"; };
+		84435BB02288B6DD00C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetSearchIosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.debug.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84435B4922837E7100C53E0C /* Frameworks */ = {
+		84435B862288B6D900C53E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762D471B168DF31AC8FAECC0 /* Pods_PetSearchIosApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84435B9C2288B6DD00C53E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84435B6022837E7500C53E0C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84435B6B22837E7500C53E0C /* Frameworks */ = {
+		84435BA72288B6DD00C53E0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,68 +81,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84435B4322837E7100C53E0C = {
+		6ED43440E76D594C9E989B36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				84435B4E22837E7100C53E0C /* PetSearchIosApp */,
-				84435B6622837E7500C53E0C /* PetSearchIosAppTests */,
-				84435B7122837E7500C53E0C /* PetSearchIosAppUITests */,
-				84435B4D22837E7100C53E0C /* Products */,
+				A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84435B802288B6D900C53E0C = {
+			isa = PBXGroup;
+			children = (
+				84435B8B2288B6D900C53E0C /* PetSearchIosApp */,
+				84435BA22288B6DD00C53E0C /* PetSearchIosAppTests */,
+				84435BAD2288B6DD00C53E0C /* PetSearchIosAppUITests */,
+				84435B8A2288B6D900C53E0C /* Products */,
+				940A32E3AA22D611FB1D6813 /* Pods */,
+				6ED43440E76D594C9E989B36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		84435B4D22837E7100C53E0C /* Products */ = {
+		84435B8A2288B6D900C53E0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84435B4C22837E7100C53E0C /* PetSearchIosApp.app */,
-				84435B6322837E7500C53E0C /* PetSearchIosAppTests.xctest */,
-				84435B6E22837E7500C53E0C /* PetSearchIosAppUITests.xctest */,
+				84435B892288B6D900C53E0C /* PetSearchIosApp.app */,
+				84435B9F2288B6DD00C53E0C /* PetSearchIosAppTests.xctest */,
+				84435BAA2288B6DD00C53E0C /* PetSearchIosAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84435B4E22837E7100C53E0C /* PetSearchIosApp */ = {
+		84435B8B2288B6D900C53E0C /* PetSearchIosApp */ = {
 			isa = PBXGroup;
 			children = (
-				84435B4F22837E7100C53E0C /* AppDelegate.swift */,
-				84435B5122837E7100C53E0C /* ViewController.swift */,
-				84435B5322837E7100C53E0C /* Main.storyboard */,
-				84435B5922837E7500C53E0C /* Assets.xcassets */,
-				84435B5B22837E7500C53E0C /* LaunchScreen.storyboard */,
-				84435B5E22837E7500C53E0C /* Info.plist */,
-				84435B5622837E7100C53E0C /* PetSearchIosApp.xcdatamodeld */,
+				84435B8C2288B6D900C53E0C /* AppDelegate.swift */,
+				84435B8E2288B6D900C53E0C /* FirstViewController.swift */,
+				84435B902288B6D900C53E0C /* SecondViewController.swift */,
+				84435B922288B6D900C53E0C /* Main.storyboard */,
+				84435B952288B6DC00C53E0C /* Assets.xcassets */,
+				84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */,
+				84435B9A2288B6DC00C53E0C /* Info.plist */,
 			);
 			path = PetSearchIosApp;
 			sourceTree = "<group>";
 		};
-		84435B6622837E7500C53E0C /* PetSearchIosAppTests */ = {
+		84435BA22288B6DD00C53E0C /* PetSearchIosAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				84435B6722837E7500C53E0C /* PetSearchIosAppTests.swift */,
-				84435B6922837E7500C53E0C /* Info.plist */,
+				84435BA32288B6DD00C53E0C /* PetSearchIosAppTests.swift */,
+				84435BA52288B6DD00C53E0C /* Info.plist */,
 			);
 			path = PetSearchIosAppTests;
 			sourceTree = "<group>";
 		};
-		84435B7122837E7500C53E0C /* PetSearchIosAppUITests */ = {
+		84435BAD2288B6DD00C53E0C /* PetSearchIosAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				84435B7222837E7500C53E0C /* PetSearchIosAppUITests.swift */,
-				84435B7422837E7500C53E0C /* Info.plist */,
+				84435BAE2288B6DD00C53E0C /* PetSearchIosAppUITests.swift */,
+				84435BB02288B6DD00C53E0C /* Info.plist */,
 			);
 			path = PetSearchIosAppUITests;
+			sourceTree = "<group>";
+		};
+		940A32E3AA22D611FB1D6813 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */,
+				7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84435B4B22837E7100C53E0C /* PetSearchIosApp */ = {
+		84435B882288B6D900C53E0C /* PetSearchIosApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84435B7722837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosApp" */;
+			buildConfigurationList = 84435BB32288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosApp" */;
 			buildPhases = (
-				84435B4822837E7100C53E0C /* Sources */,
-				84435B4922837E7100C53E0C /* Frameworks */,
-				84435B4A22837E7100C53E0C /* Resources */,
+				3FFD721B73C37015EDE6EB87 /* [CP] Check Pods Manifest.lock */,
+				84435B852288B6D900C53E0C /* Sources */,
+				84435B862288B6D900C53E0C /* Frameworks */,
+				84435B872288B6D900C53E0C /* Resources */,
+				22E371629A1B897A3D1CD180 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,69 +172,69 @@
 			);
 			name = PetSearchIosApp;
 			productName = PetSearchIosApp;
-			productReference = 84435B4C22837E7100C53E0C /* PetSearchIosApp.app */;
+			productReference = 84435B892288B6D900C53E0C /* PetSearchIosApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84435B6222837E7500C53E0C /* PetSearchIosAppTests */ = {
+		84435B9E2288B6DD00C53E0C /* PetSearchIosAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84435B7A22837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppTests" */;
+			buildConfigurationList = 84435BB62288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppTests" */;
 			buildPhases = (
-				84435B5F22837E7500C53E0C /* Sources */,
-				84435B6022837E7500C53E0C /* Frameworks */,
-				84435B6122837E7500C53E0C /* Resources */,
+				84435B9B2288B6DD00C53E0C /* Sources */,
+				84435B9C2288B6DD00C53E0C /* Frameworks */,
+				84435B9D2288B6DD00C53E0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84435B6522837E7500C53E0C /* PBXTargetDependency */,
+				84435BA12288B6DD00C53E0C /* PBXTargetDependency */,
 			);
 			name = PetSearchIosAppTests;
 			productName = PetSearchIosAppTests;
-			productReference = 84435B6322837E7500C53E0C /* PetSearchIosAppTests.xctest */;
+			productReference = 84435B9F2288B6DD00C53E0C /* PetSearchIosAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84435B6D22837E7500C53E0C /* PetSearchIosAppUITests */ = {
+		84435BA92288B6DD00C53E0C /* PetSearchIosAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84435B7D22837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppUITests" */;
+			buildConfigurationList = 84435BB92288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppUITests" */;
 			buildPhases = (
-				84435B6A22837E7500C53E0C /* Sources */,
-				84435B6B22837E7500C53E0C /* Frameworks */,
-				84435B6C22837E7500C53E0C /* Resources */,
+				84435BA62288B6DD00C53E0C /* Sources */,
+				84435BA72288B6DD00C53E0C /* Frameworks */,
+				84435BA82288B6DD00C53E0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84435B7022837E7500C53E0C /* PBXTargetDependency */,
+				84435BAC2288B6DD00C53E0C /* PBXTargetDependency */,
 			);
 			name = PetSearchIosAppUITests;
 			productName = PetSearchIosAppUITests;
-			productReference = 84435B6E22837E7500C53E0C /* PetSearchIosAppUITests.xctest */;
+			productReference = 84435BAA2288B6DD00C53E0C /* PetSearchIosAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		84435B4422837E7100C53E0C /* Project object */ = {
+		84435B812288B6D900C53E0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Andrei Poliakov";
 				TargetAttributes = {
-					84435B4B22837E7100C53E0C = {
+					84435B882288B6D900C53E0C = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					84435B6222837E7500C53E0C = {
+					84435B9E2288B6DD00C53E0C = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 84435B4B22837E7100C53E0C;
+						TestTargetID = 84435B882288B6D900C53E0C;
 					};
-					84435B6D22837E7500C53E0C = {
+					84435BA92288B6DD00C53E0C = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 84435B4B22837E7100C53E0C;
+						TestTargetID = 84435B882288B6D900C53E0C;
 					};
 				};
 			};
-			buildConfigurationList = 84435B4722837E7100C53E0C /* Build configuration list for PBXProject "PetSearchIosApp" */;
+			buildConfigurationList = 84435B842288B6D900C53E0C /* Build configuration list for PBXProject "PetSearchIosApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +242,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 84435B4322837E7100C53E0C;
-			productRefGroup = 84435B4D22837E7100C53E0C /* Products */;
+			mainGroup = 84435B802288B6D900C53E0C;
+			productRefGroup = 84435B8A2288B6D900C53E0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84435B4B22837E7100C53E0C /* PetSearchIosApp */,
-				84435B6222837E7500C53E0C /* PetSearchIosAppTests */,
-				84435B6D22837E7500C53E0C /* PetSearchIosAppUITests */,
+				84435B882288B6D900C53E0C /* PetSearchIosApp */,
+				84435B9E2288B6DD00C53E0C /* PetSearchIosAppTests */,
+				84435BA92288B6DD00C53E0C /* PetSearchIosAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84435B4A22837E7100C53E0C /* Resources */ = {
+		84435B872288B6D900C53E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84435B5D22837E7500C53E0C /* LaunchScreen.storyboard in Resources */,
-				84435B5A22837E7500C53E0C /* Assets.xcassets in Resources */,
-				84435B5522837E7100C53E0C /* Main.storyboard in Resources */,
+				84435B992288B6DC00C53E0C /* LaunchScreen.storyboard in Resources */,
+				84435B962288B6DC00C53E0C /* Assets.xcassets in Resources */,
+				84435B942288B6D900C53E0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84435B6122837E7500C53E0C /* Resources */ = {
+		84435B9D2288B6DD00C53E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84435B6C22837E7500C53E0C /* Resources */ = {
+		84435BA82288B6DD00C53E0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +281,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22E371629A1B897A3D1CD180 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFD721B73C37015EDE6EB87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetSearchIosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		84435B4822837E7100C53E0C /* Sources */ = {
+		84435B852288B6D900C53E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84435B5222837E7100C53E0C /* ViewController.swift in Sources */,
-				84435B5822837E7100C53E0C /* PetSearchIosApp.xcdatamodeld in Sources */,
-				84435B5022837E7100C53E0C /* AppDelegate.swift in Sources */,
+				84435B912288B6D900C53E0C /* SecondViewController.swift in Sources */,
+				84435B8D2288B6D900C53E0C /* AppDelegate.swift in Sources */,
+				84435B8F2288B6D900C53E0C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84435B5F22837E7500C53E0C /* Sources */ = {
+		84435B9B2288B6DD00C53E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84435B6822837E7500C53E0C /* PetSearchIosAppTests.swift in Sources */,
+				84435BA42288B6DD00C53E0C /* PetSearchIosAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84435B6A22837E7500C53E0C /* Sources */ = {
+		84435BA62288B6DD00C53E0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84435B7322837E7500C53E0C /* PetSearchIosAppUITests.swift in Sources */,
+				84435BAF2288B6DD00C53E0C /* PetSearchIosAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84435B6522837E7500C53E0C /* PBXTargetDependency */ = {
+		84435BA12288B6DD00C53E0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84435B4B22837E7100C53E0C /* PetSearchIosApp */;
-			targetProxy = 84435B6422837E7500C53E0C /* PBXContainerItemProxy */;
+			target = 84435B882288B6D900C53E0C /* PetSearchIosApp */;
+			targetProxy = 84435BA02288B6DD00C53E0C /* PBXContainerItemProxy */;
 		};
-		84435B7022837E7500C53E0C /* PBXTargetDependency */ = {
+		84435BAC2288B6DD00C53E0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84435B4B22837E7100C53E0C /* PetSearchIosApp */;
-			targetProxy = 84435B6F22837E7500C53E0C /* PBXContainerItemProxy */;
+			target = 84435B882288B6D900C53E0C /* PetSearchIosApp */;
+			targetProxy = 84435BAB2288B6DD00C53E0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		84435B5322837E7100C53E0C /* Main.storyboard */ = {
+		84435B922288B6D900C53E0C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84435B5422837E7100C53E0C /* Base */,
+				84435B932288B6D900C53E0C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		84435B5B22837E7500C53E0C /* LaunchScreen.storyboard */ = {
+		84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84435B5C22837E7500C53E0C /* Base */,
+				84435B982288B6DC00C53E0C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +392,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		84435B7522837E7500C53E0C /* Debug */ = {
+		84435BB12288B6DD00C53E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +453,7 @@
 			};
 			name = Debug;
 		};
-		84435B7622837E7500C53E0C /* Release */ = {
+		84435BB22288B6DD00C53E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,8 +508,9 @@
 			};
 			name = Release;
 		};
-		84435B7822837E7500C53E0C /* Debug */ = {
+		84435BB42288B6DD00C53E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,8 +526,9 @@
 			};
 			name = Debug;
 		};
-		84435B7922837E7500C53E0C /* Release */ = {
+		84435BB52288B6DD00C53E0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,7 +544,7 @@
 			};
 			name = Release;
 		};
-		84435B7B22837E7500C53E0C /* Debug */ = {
+		84435BB72288B6DD00C53E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,7 +564,7 @@
 			};
 			name = Debug;
 		};
-		84435B7C22837E7500C53E0C /* Release */ = {
+		84435BB82288B6DD00C53E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +584,7 @@
 			};
 			name = Release;
 		};
-		84435B7E22837E7500C53E0C /* Debug */ = {
+		84435BBA2288B6DD00C53E0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +603,7 @@
 			};
 			name = Debug;
 		};
-		84435B7F22837E7500C53E0C /* Release */ = {
+		84435BBB2288B6DD00C53E0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,56 +625,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84435B4722837E7100C53E0C /* Build configuration list for PBXProject "PetSearchIosApp" */ = {
+		84435B842288B6D900C53E0C /* Build configuration list for PBXProject "PetSearchIosApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84435B7522837E7500C53E0C /* Debug */,
-				84435B7622837E7500C53E0C /* Release */,
+				84435BB12288B6DD00C53E0C /* Debug */,
+				84435BB22288B6DD00C53E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84435B7722837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosApp" */ = {
+		84435BB32288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84435B7822837E7500C53E0C /* Debug */,
-				84435B7922837E7500C53E0C /* Release */,
+				84435BB42288B6DD00C53E0C /* Debug */,
+				84435BB52288B6DD00C53E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84435B7A22837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppTests" */ = {
+		84435BB62288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84435B7B22837E7500C53E0C /* Debug */,
-				84435B7C22837E7500C53E0C /* Release */,
+				84435BB72288B6DD00C53E0C /* Debug */,
+				84435BB82288B6DD00C53E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84435B7D22837E7500C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppUITests" */ = {
+		84435BB92288B6DD00C53E0C /* Build configuration list for PBXNativeTarget "PetSearchIosAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84435B7E22837E7500C53E0C /* Debug */,
-				84435B7F22837E7500C53E0C /* Release */,
+				84435BBA2288B6DD00C53E0C /* Debug */,
+				84435BBB2288B6DD00C53E0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84435B5622837E7100C53E0C /* PetSearchIosApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84435B5722837E7100C53E0C /* PetSearchIosApp.xcdatamodel */,
-			);
-			currentVersion = 84435B5722837E7100C53E0C /* PetSearchIosApp.xcdatamodel */;
-			path = PetSearchIosApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 84435B4422837E7100C53E0C /* Project object */;
+	rootObject = 84435B812288B6D900C53E0C /* Project object */;
 }
