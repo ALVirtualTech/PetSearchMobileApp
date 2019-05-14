@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  FirstViewController.swift
 //  PetSearchIosApp
 //
 //  Created by Andrei Poliakov on 13.05.2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class LocalSavedAdvertsController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

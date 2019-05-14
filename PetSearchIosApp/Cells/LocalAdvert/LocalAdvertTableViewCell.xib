@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="LocalAdvertTableViewCell" customModule="PetSearchIosApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="119.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="b2u-qy-BRe">
+                        <rect key="frame" x="5" y="30" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="JsC-27-aHA"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="Ypa-vx-Vb0"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="dPm-Ug-3xF"/>
+                            <constraint firstAttribute="width" constant="80" id="t99-eE-FQ2"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="utp-bh-UiA"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="save_offline" translatesAutoresizingMaskIntoConstraints="NO" id="MwS-ox-GhH">
+                        <rect key="frame" x="270" y="55" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="32" id="94K-EZ-Kcu"/>
+                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="cec-iz-jpZ"/>
+                            <constraint firstAttribute="height" constant="32" id="gxE-g7-47j"/>
+                            <constraint firstAttribute="width" constant="32" id="sMG-Lz-ybc"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zCD-jO-UXL">
+                        <rect key="frame" x="90" y="30" width="170" height="80"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="170" id="kJF-ec-g75"/>
+                        </constraints>
+                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAs-Uf-6AJ">
+                        <rect key="frame" x="0.0" y="5" width="320" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nAs-Uf-6AJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7yt-Xq-ac5"/>
+                    <constraint firstItem="zCD-jO-UXL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="90" id="9AT-CQ-N79"/>
+                    <constraint firstItem="MwS-ox-GhH" firstAttribute="leading" secondItem="zCD-jO-UXL" secondAttribute="trailing" constant="10" id="BMm-tD-AWV"/>
+                    <constraint firstItem="zCD-jO-UXL" firstAttribute="top" secondItem="nAs-Uf-6AJ" secondAttribute="bottom" constant="5" id="JrQ-6X-IES"/>
+                    <constraint firstItem="nAs-Uf-6AJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-6" id="LiH-rN-9AC"/>
+                    <constraint firstItem="MwS-ox-GhH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="44" id="PCU-c7-mux"/>
+                    <constraint firstItem="zCD-jO-UXL" firstAttribute="bottom" secondItem="b2u-qy-BRe" secondAttribute="bottom" id="PN3-d6-jZk"/>
+                    <constraint firstItem="zCD-jO-UXL" firstAttribute="top" secondItem="b2u-qy-BRe" secondAttribute="top" id="c1Z-WF-yz6"/>
+                    <constraint firstItem="zCD-jO-UXL" firstAttribute="leading" secondItem="b2u-qy-BRe" secondAttribute="trailing" constant="5" id="c1z-lj-HXp"/>
+                    <constraint firstAttribute="trailing" secondItem="nAs-Uf-6AJ" secondAttribute="trailing" id="onZ-7a-Z1a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="advertDescriptionTextView" destination="zCD-jO-UXL" id="hci-Ln-ItU"/>
+                <outlet property="advertImageView" destination="b2u-qy-BRe" id="2O4-2q-N7V"/>
+                <outlet property="advertTitleLabel" destination="nAs-Uf-6AJ" id="Rar-bD-CNI"/>
+                <outlet property="deleteFromLocalStorageBtn" destination="MwS-ox-GhH" id="hKb-td-POS"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="save_offline" width="512" height="512"/>
+    </resources>
+</document>

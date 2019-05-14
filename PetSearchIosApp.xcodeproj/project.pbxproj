@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		762D471B168DF31AC8FAECC0 /* Pods_PetSearchIosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */; };
 		84435B8D2288B6D900C53E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8C2288B6D900C53E0C /* AppDelegate.swift */; };
-		84435B8F2288B6D900C53E0C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8E2288B6D900C53E0C /* FirstViewController.swift */; };
-		84435B912288B6D900C53E0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B902288B6D900C53E0C /* SecondViewController.swift */; };
+		84435B8F2288B6D900C53E0C /* LocalSavedAdvertsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */; };
+		84435B912288B6D900C53E0C /* AdvertsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B902288B6D900C53E0C /* AdvertsTableViewController.swift */; };
 		84435B942288B6D900C53E0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B922288B6D900C53E0C /* Main.storyboard */; };
 		84435B962288B6DC00C53E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84435B952288B6DC00C53E0C /* Assets.xcassets */; };
 		84435B992288B6DC00C53E0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */; };
 		84435BA42288B6DD00C53E0C /* PetSearchIosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BA32288B6DD00C53E0C /* PetSearchIosAppTests.swift */; };
 		84435BAF2288B6DD00C53E0C /* PetSearchIosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BAE2288B6DD00C53E0C /* PetSearchIosAppUITests.swift */; };
+		84435BC12289E84800C53E0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BC02289E84800C53E0C /* User.swift */; };
+		84435BC32289E8F600C53E0C /* APIRequesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BC22289E8F600C53E0C /* APIRequesting.swift */; };
+		84435BC52289E9AB00C53E0C /* Advert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BC42289E9AB00C53E0C /* Advert.swift */; };
+		84435BC72289F66900C53E0C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BC62289F66900C53E0C /* API.swift */; };
+		84435BC92289F80300C53E0C /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BC82289F80300C53E0C /* APIResponse.swift */; };
+		84435BCB228A039500C53E0C /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BCA228A039500C53E0C /* UITableViewCell+Extensions.swift */; };
+		84435BCF228A060B00C53E0C /* AdvertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BCD228A060B00C53E0C /* AdvertTableViewCell.swift */; };
+		84435BD0228A060B00C53E0C /* AdvertTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84435BCE228A060B00C53E0C /* AdvertTableViewCell.xib */; };
+		84435BD4228A06A800C53E0C /* LocalAdvertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BD2228A06A800C53E0C /* LocalAdvertTableViewCell.swift */; };
+		84435BD5228A06A800C53E0C /* LocalAdvertTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */; };
+		84435BD7228B3C1A00C53E0C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BD6228B3C1A00C53E0C /* StringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +50,8 @@
 		7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.release.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.release.xcconfig"; sourceTree = "<group>"; };
 		84435B892288B6D900C53E0C /* PetSearchIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSearchIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84435B8C2288B6D900C53E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84435B8E2288B6D900C53E0C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		84435B902288B6D900C53E0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSavedAdvertsController.swift; sourceTree = "<group>"; };
+		84435B902288B6D900C53E0C /* AdvertsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertsTableViewController.swift; sourceTree = "<group>"; };
 		84435B932288B6D900C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84435B952288B6DC00C53E0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84435B982288B6DC00C53E0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		84435BAA2288B6DD00C53E0C /* PetSearchIosAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSearchIosAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84435BAE2288B6DD00C53E0C /* PetSearchIosAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchIosAppUITests.swift; sourceTree = "<group>"; };
 		84435BB02288B6DD00C53E0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84435BC02289E84800C53E0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84435BC22289E8F600C53E0C /* APIRequesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequesting.swift; sourceTree = "<group>"; };
+		84435BC42289E9AB00C53E0C /* Advert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advert.swift; sourceTree = "<group>"; };
+		84435BC62289F66900C53E0C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		84435BC82289F80300C53E0C /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		84435BCA228A039500C53E0C /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		84435BCD228A060B00C53E0C /* AdvertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertTableViewCell.swift; sourceTree = "<group>"; };
+		84435BCE228A060B00C53E0C /* AdvertTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertTableViewCell.xib; sourceTree = "<group>"; };
+		84435BD2228A06A800C53E0C /* LocalAdvertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAdvertTableViewCell.swift; sourceTree = "<group>"; };
+		84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalAdvertTableViewCell.xib; sourceTree = "<group>"; };
+		84435BD6228B3C1A00C53E0C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetSearchIosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.debug.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,13 +136,16 @@
 		84435B8B2288B6D900C53E0C /* PetSearchIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				84435BBF2289E7DA00C53E0C /* API */,
+				84435BBE2289E7C700C53E0C /* Models */,
+				84435BBD2289E78F00C53E0C /* Controllers */,
+				84435BBC2289E78200C53E0C /* Cells */,
 				84435B8C2288B6D900C53E0C /* AppDelegate.swift */,
-				84435B8E2288B6D900C53E0C /* FirstViewController.swift */,
-				84435B902288B6D900C53E0C /* SecondViewController.swift */,
 				84435B922288B6D900C53E0C /* Main.storyboard */,
 				84435B952288B6DC00C53E0C /* Assets.xcassets */,
 				84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */,
 				84435B9A2288B6DC00C53E0C /* Info.plist */,
+				84435BD6228B3C1A00C53E0C /* StringUtils.swift */,
 			);
 			path = PetSearchIosApp;
 			sourceTree = "<group>";
@@ -143,13 +168,68 @@
 			path = PetSearchIosAppUITests;
 			sourceTree = "<group>";
 		};
+		84435BBC2289E78200C53E0C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84435BD1228A067800C53E0C /* LocalAdvert */,
+				84435BCC228A041E00C53E0C /* Advert */,
+				84435BCA228A039500C53E0C /* UITableViewCell+Extensions.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84435BBD2289E78F00C53E0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */,
+				84435B902288B6D900C53E0C /* AdvertsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		84435BBE2289E7C700C53E0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84435BC02289E84800C53E0C /* User.swift */,
+				84435BC42289E9AB00C53E0C /* Advert.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84435BBF2289E7DA00C53E0C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84435BC22289E8F600C53E0C /* APIRequesting.swift */,
+				84435BC62289F66900C53E0C /* API.swift */,
+				84435BC82289F80300C53E0C /* APIResponse.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		84435BCC228A041E00C53E0C /* Advert */ = {
+			isa = PBXGroup;
+			children = (
+				84435BCD228A060B00C53E0C /* AdvertTableViewCell.swift */,
+				84435BCE228A060B00C53E0C /* AdvertTableViewCell.xib */,
+			);
+			path = Advert;
+			sourceTree = "<group>";
+		};
+		84435BD1228A067800C53E0C /* LocalAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				84435BD2228A06A800C53E0C /* LocalAdvertTableViewCell.swift */,
+				84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */,
+			);
+			path = LocalAdvert;
+			sourceTree = "<group>";
+		};
 		940A32E3AA22D611FB1D6813 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */,
 				7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,6 +340,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84435B992288B6DC00C53E0C /* LaunchScreen.storyboard in Resources */,
+				84435BD5228A06A800C53E0C /* LocalAdvertTableViewCell.xib in Resources */,
+				84435BD0228A060B00C53E0C /* AdvertTableViewCell.xib in Resources */,
 				84435B962288B6DC00C53E0C /* Assets.xcassets in Resources */,
 				84435B942288B6D900C53E0C /* Main.storyboard in Resources */,
 			);
@@ -335,9 +417,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84435B912288B6D900C53E0C /* SecondViewController.swift in Sources */,
+				84435BD7228B3C1A00C53E0C /* StringUtils.swift in Sources */,
+				84435BC12289E84800C53E0C /* User.swift in Sources */,
+				84435BC32289E8F600C53E0C /* APIRequesting.swift in Sources */,
+				84435B912288B6D900C53E0C /* AdvertsTableViewController.swift in Sources */,
 				84435B8D2288B6D900C53E0C /* AppDelegate.swift in Sources */,
-				84435B8F2288B6D900C53E0C /* FirstViewController.swift in Sources */,
+				84435B8F2288B6D900C53E0C /* LocalSavedAdvertsController.swift in Sources */,
+				84435BCF228A060B00C53E0C /* AdvertTableViewCell.swift in Sources */,
+				84435BD4228A06A800C53E0C /* LocalAdvertTableViewCell.swift in Sources */,
+				84435BC92289F80300C53E0C /* APIResponse.swift in Sources */,
+				84435BC52289E9AB00C53E0C /* Advert.swift in Sources */,
+				84435BC72289F66900C53E0C /* API.swift in Sources */,
+				84435BCB228A039500C53E0C /* UITableViewCell+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
