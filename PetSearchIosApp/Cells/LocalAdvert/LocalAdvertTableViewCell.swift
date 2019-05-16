@@ -23,8 +23,8 @@ class LocalAdvertTableViewCell: UITableViewCell {
             let image = UIImage(data: decodedData)
             self.advertImageView.image = image
         }
-        self.advertDescriptionTextView.text = StringUtils.truncate(advert.description, length: 255)
-        self.advertTitleLabel.text = StringUtils.truncate(advert.description, length: 30)
+        self.advertDescriptionTextView.text = StringUtils.truncate(advert.descr, length: 255)
+        self.advertTitleLabel.text = StringUtils.truncate(advert.title, length: 30)
         self.model = advert
     }
 

@@ -6,6 +6,7 @@ target 'PetSearchIosApp' do
   use_frameworks!
 	pod 'Alamofire', '4.4.0'
 	pod 'SwiftyJSON', '3.1.4'
+	pod 'RealmSwift', '~> 3.15'
   # Pods for PetSearchIosApp
 
 end

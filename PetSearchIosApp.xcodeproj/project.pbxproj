@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		762D471B168DF31AC8FAECC0 /* Pods_PetSearchIosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */; };
+		8418BE00228CAB9400D6BE50 /* AdvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8418BDFF228CAB9400D6BE50 /* AdvertViewController.swift */; };
 		84435B8D2288B6D900C53E0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8C2288B6D900C53E0C /* AppDelegate.swift */; };
 		84435B8F2288B6D900C53E0C /* LocalSavedAdvertsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */; };
 		84435B912288B6D900C53E0C /* AdvertsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435B902288B6D900C53E0C /* AdvertsTableViewController.swift */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		7BD7A5C3DE0B089FEA57E7E4 /* Pods-PetSearchIosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.release.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.release.xcconfig"; sourceTree = "<group>"; };
+		8418BDFF228CAB9400D6BE50 /* AdvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertViewController.swift; sourceTree = "<group>"; };
 		84435B892288B6D900C53E0C /* PetSearchIosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSearchIosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84435B8C2288B6D900C53E0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSavedAdvertsController.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */,
 				84435B9A2288B6DC00C53E0C /* Info.plist */,
 				84435BD6228B3C1A00C53E0C /* StringUtils.swift */,
+				8418BDFF228CAB9400D6BE50 /* AdvertViewController.swift */,
 			);
 			path = PetSearchIosApp;
 			sourceTree = "<group>";
@@ -370,18 +373,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -418,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84435BD7228B3C1A00C53E0C /* StringUtils.swift in Sources */,
+				8418BE00228CAB9400D6BE50 /* AdvertViewController.swift in Sources */,
 				84435BC12289E84800C53E0C /* User.swift in Sources */,
 				84435BC32289E8F600C53E0C /* APIRequesting.swift in Sources */,
 				84435B912288B6D900C53E0C /* AdvertsTableViewController.swift in Sources */,
