@@ -64,13 +64,13 @@ extension LocalSavedAdvertsController: UITableViewDataSource, UITableViewDelegat
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //tableView.deselectRow(at: indexPath, animated: true)
         let advert = (tableView.cellForRow(at: indexPath) as! LocalAdvertTableViewCell).model
-        performSegue(withIdentifier: "localAdvertsToLocalAdvert", sender: advert)
+        performSegue(withIdentifier: "localAdvertsToLocalAdvert", sender: AdvertDtObject((advert?.id)!, RealmHelper.isAdvertSavedLocal((advert?.id)!)))
     }
     
     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "localAdvertsToLocalAdvert" {
             let controller = segue.destination as! AdvertViewController
-            controller.advert = sender as? Advert
+            controller.advertDto = sender as? AdvertDtObject
         }
     }
     
@@ -82,7 +82,7 @@ extension LocalSavedAdvertsController: UITableViewDataSource, UITableViewDelegat
         // Pass the selected object to the new view controller.
         if segue.identifier == "localAdvertsToLocalAdvert" {
             let controller = segue.destination as! AdvertViewController
-            controller.advert = sender as? Advert
+            controller.advertDto = sender as? AdvertDtObject
         }
     }
 }

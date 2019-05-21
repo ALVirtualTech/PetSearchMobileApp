@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,6 +28,8 @@
 		84435BD4228A06A800C53E0C /* LocalAdvertTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BD2228A06A800C53E0C /* LocalAdvertTableViewCell.swift */; };
 		84435BD5228A06A800C53E0C /* LocalAdvertTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */; };
 		84435BD7228B3C1A00C53E0C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BD6228B3C1A00C53E0C /* StringUtils.swift */; };
+		84FF2D22229494BD00DC082E /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D21229494BD00DC082E /* RealmHelper.swift */; };
+		84FF2D252294A04D00DC082E /* AdvertDtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D242294A04D00DC082E /* AdvertDtObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		84435BD2228A06A800C53E0C /* LocalAdvertTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAdvertTableViewCell.swift; sourceTree = "<group>"; };
 		84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocalAdvertTableViewCell.xib; sourceTree = "<group>"; };
 		84435BD6228B3C1A00C53E0C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		84FF2D21229494BD00DC082E /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		84FF2D242294A04D00DC082E /* AdvertDtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertDtObject.swift; sourceTree = "<group>"; };
 		A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetSearchIosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.debug.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +142,7 @@
 		84435B8B2288B6D900C53E0C /* PetSearchIosApp */ = {
 			isa = PBXGroup;
 			children = (
+				84FF2D232294A02600DC082E /* Shared */,
 				84435BBF2289E7DA00C53E0C /* API */,
 				84435BBE2289E7C700C53E0C /* Models */,
 				84435BBD2289E78F00C53E0C /* Controllers */,
@@ -147,7 +152,6 @@
 				84435B952288B6DC00C53E0C /* Assets.xcassets */,
 				84435B972288B6DC00C53E0C /* LaunchScreen.storyboard */,
 				84435B9A2288B6DC00C53E0C /* Info.plist */,
-				84435BD6228B3C1A00C53E0C /* StringUtils.swift */,
 				8418BDFF228CAB9400D6BE50 /* AdvertViewController.swift */,
 			);
 			path = PetSearchIosApp;
@@ -195,6 +199,7 @@
 			children = (
 				84435BC02289E84800C53E0C /* User.swift */,
 				84435BC42289E9AB00C53E0C /* Advert.swift */,
+				84FF2D21229494BD00DC082E /* RealmHelper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,6 +230,15 @@
 				84435BD3228A06A800C53E0C /* LocalAdvertTableViewCell.xib */,
 			);
 			path = LocalAdvert;
+			sourceTree = "<group>";
+		};
+		84FF2D232294A02600DC082E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				84435BD6228B3C1A00C53E0C /* StringUtils.swift */,
+				84FF2D242294A04D00DC082E /* AdvertDtObject.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		940A32E3AA22D611FB1D6813 /* Pods */ = {
@@ -424,7 +438,9 @@
 				84435BD4228A06A800C53E0C /* LocalAdvertTableViewCell.swift in Sources */,
 				84435BC92289F80300C53E0C /* APIResponse.swift in Sources */,
 				84435BC52289E9AB00C53E0C /* Advert.swift in Sources */,
+				84FF2D22229494BD00DC082E /* RealmHelper.swift in Sources */,
 				84435BC72289F66900C53E0C /* API.swift in Sources */,
+				84FF2D252294A04D00DC082E /* AdvertDtObject.swift in Sources */,
 				84435BCB228A039500C53E0C /* UITableViewCell+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

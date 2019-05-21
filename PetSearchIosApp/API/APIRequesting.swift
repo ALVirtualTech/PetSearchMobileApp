@@ -23,6 +23,8 @@ extension APIRequesting {
     }
 }
 
+//TODO: провести рефакторинг, чтобы был универсальный метод, в который можно передавать колбеки с различными параметрами
+//на данный момент проблема: для результата типа массив и результата типа один объект нужны разные колбеки и разные методы
 extension APIRequesting {
     
     @discardableResult
@@ -39,6 +41,39 @@ extension APIRequesting {
         }
         
         return request
+    }
+    
+    @discardableResult
+    func send(params: JSON, completion: ((_ json: JSON) -> Void)?) -> DataRequest? {
+        let request = Alamofire.request(baseURL + requestURL, method: httpMethod, parameters: params, headers: nil)
+        request.responseJSON { (response) -> Void in
+            self.handleResponseSingle(response, then: { (response) in
+                guard case .success (let data) = response , let json = data as? JSON else {
+                    return
+                }
+                
+                completion?(json)
+            })
+        }
+        
+        return request
+    }
+    
+    private func handleResponseSingle(_ dataResponse: DataResponse<Any>, then completion: ((_ response: APIResponse) -> Void)?) {
+        
+        guard let httpCode = dataResponse.response?.statusCode, httpCode == 200 else {
+            print("APIRequesting: Failed to parse JSON")
+            completion?(.error(code: nil, message: nil))
+            return
+        }
+        
+        guard let response = dataResponse.result.value as? JSON else {
+            print("APIRequesting: 200 response without data")
+            completion?(.error(code: nil, message: nil))
+            return
+        }
+        
+        completion?(.success(data: response))
     }
     
     private func handleResponse(_ dataResponse: DataResponse<Any>, then completion: ((_ response: APIResponse) -> Void)?) {

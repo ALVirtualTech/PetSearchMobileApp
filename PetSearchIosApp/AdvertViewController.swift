@@ -10,6 +10,7 @@ import UIKit
 import RealmSwift
 
 class AdvertViewController: UIViewController {
+    var advertDto : AdvertDtObject?
     var advert: Advert?
     @IBOutlet weak var cardTitleLabel: UINavigationItem!
     
@@ -40,6 +41,23 @@ class AdvertViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Reading object
+        if let advertDto = advertDto {
+            if RealmHelper.isAdvertSavedLocal(advertDto.id) {
+                advert = RealmHelper.getAdvert(advertDto.id)
+                fillProperties()
+            } else {
+                API.Pets.Advert().send(params: API.Pets.Advert().getParams(advertDto.id),
+                                       completion: { [weak self] (model) in
+                    guard let self = self else { return }
+                    self.advert = Advert(from: model)
+                    self.fillProperties()
+                })
+            }
+        }
+    }
+    
+    func fillProperties()
+    {
         if let advert = advert {
             cardTitleLabel.title = advert.title
             cardTitleLabel.prompt = advert.title
@@ -53,34 +71,33 @@ class AdvertViewController: UIViewController {
             vaccinationsLabel.text = advert.vaccinations ? "есть" : "нет"
             heightLabel.text = "\(advert.height) м"
             weightLabel.text = "\(advert.weight) кг"
-            
-            // Query using an NSPredicate
-            let predicate = NSPredicate(format: "id = %i", advert.id)
-            if let savedAdvert = uiRealm.objects(Advert.self).filter(predicate).first {
+            if RealmHelper.isAdvertSavedLocal(advert.id) {
                 advertPersistanceState = false
-                saveAdvert()
+                SaveLocalBarBtn.title = "Удалить"
             }
         }
-        // Do any additional setup after loading the view.
     }
     
     func saveAdvert() -> Bool {
         if advertPersistanceState {
             return deleteAdvert()
         }
-        try! uiRealm.write {
-            uiRealm.add(advert!, update: true)
-        }
+        RealmHelper.saveAdvert(advert!)
+        advert = RealmHelper.getAdvert(advertDto!.id)
+        fillProperties()
         SaveLocalBarBtn.title = "Удалить"
         advertPersistanceState = true
         return true
     }
     
     func deleteAdvert() -> Bool {
-        // Delete an object with a transaction
-        try! uiRealm.write {
-            uiRealm.delete(advert!)
-        }
+        RealmHelper.deleteAdvert(advert!)
+        API.Pets.Advert().send(params: API.Pets.Advert().getParams(advertDto!.id),
+                               completion: { [weak self] (model) in
+                                guard let self = self else { return }
+                                self.advert = Advert(from: model)
+                                self.fillProperties()
+        })
         SaveLocalBarBtn.title = "Сохранить"
         advertPersistanceState = false
         return true;

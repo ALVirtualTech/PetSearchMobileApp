@@ -15,6 +15,16 @@ struct API {
             var requestURL: String { return "adverts" }
         }
         
+        struct Advert: APIRequesting {
+            var httpMethod: HTTPMethod { return .get }
+            var requestURL: String { return "advert" }
+            
+            func getParams(_ id : Int) -> JSON {
+                return [
+                    "id": id
+            ]}
+        }
+        
         struct Users: APIRequesting {
             var httpMethod: HTTPMethod { return .get }
             var requestURL: String { return "users" }

@@ -9,9 +9,6 @@
 import UIKit
 import RealmSwift
 
-// Get the default Realm
-let uiRealm = try! Realm()
-
 @UIApplicationMain
  class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
