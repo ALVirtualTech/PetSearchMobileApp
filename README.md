@@ -2,11 +2,11 @@
 
 Последнюю версию клиента можно скачать по [ссылке](https://github.com/ALVirtualTech/PetSearchMobileAppIos/)
 
-Презентация проекта:  [pptx](Проект по дисциплине ПМУ.pptx) и  [pdf](/Проект по дисциплине ПМУ.pdf)
+Презентация проекта:  [pptx](/Проект%20по%20дисциплине%20ПМУ.pptx) и  [pdf](/Проект%20по%20дисциплине%20ПМУ.pdf)
 
 ***Используемые технологии:***
 
-swift, SwiftyJSON, alamofire
+swift, SwiftyJSON, Alamofire, Realm, Cocoa Pods
 
 ## Системные требования:
 
