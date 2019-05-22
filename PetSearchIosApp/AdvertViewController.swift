@@ -72,7 +72,7 @@ class AdvertViewController: UIViewController {
             heightLabel.text = "\(advert.height) м"
             weightLabel.text = "\(advert.weight) кг"
             if RealmHelper.isAdvertSavedLocal(advert.id) {
-                advertPersistanceState = false
+                advertPersistanceState = true
                 SaveLocalBarBtn.title = "Удалить"
             }
         }
@@ -84,6 +84,7 @@ class AdvertViewController: UIViewController {
         }
         RealmHelper.saveAdvert(advert!)
         advert = RealmHelper.getAdvert(advertDto!.id)
+        NotificationCenter.default.post(name: Notification.Name("ReceiveData"), object: nil)
         fillProperties()
         SaveLocalBarBtn.title = "Удалить"
         advertPersistanceState = true
@@ -92,6 +93,7 @@ class AdvertViewController: UIViewController {
     
     func deleteAdvert() -> Bool {
         RealmHelper.deleteAdvert(advert!)
+        NotificationCenter.default.post(name: Notification.Name("ReceiveData"), object: nil)
         API.Pets.Advert().send(params: API.Pets.Advert().getParams(advertDto!.id),
                                completion: { [weak self] (model) in
                                 guard let self = self else { return }
