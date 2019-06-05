@@ -30,6 +30,9 @@
 		84435BD7228B3C1A00C53E0C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84435BD6228B3C1A00C53E0C /* StringUtils.swift */; };
 		84FF2D22229494BD00DC082E /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D21229494BD00DC082E /* RealmHelper.swift */; };
 		84FF2D252294A04D00DC082E /* AdvertDtObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D242294A04D00DC082E /* AdvertDtObject.swift */; };
+		84FF2D2722A850C100DC082E /* LoginVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D2622A850C100DC082E /* LoginVIewController.swift */; };
+		84FF2D2922A8527F00DC082E /* SecurityContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D2822A8527F00DC082E /* SecurityContext.swift */; };
+		84FF2D2B22A85E1000DC082E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FF2D2A22A85E1000DC082E /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		84435BD6228B3C1A00C53E0C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 		84FF2D21229494BD00DC082E /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		84FF2D242294A04D00DC082E /* AdvertDtObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertDtObject.swift; sourceTree = "<group>"; };
+		84FF2D2622A850C100DC082E /* LoginVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIewController.swift; sourceTree = "<group>"; };
+		84FF2D2822A8527F00DC082E /* SecurityContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityContext.swift; sourceTree = "<group>"; };
+		84FF2D2A22A85E1000DC082E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A9317EDDF7B039F452301B0E /* Pods_PetSearchIosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetSearchIosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15D57D825D4EC12CABAEC10 /* Pods-PetSearchIosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSearchIosApp.debug.xcconfig"; path = "Target Support Files/Pods-PetSearchIosApp/Pods-PetSearchIosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -190,6 +196,7 @@
 			children = (
 				84435B8E2288B6D900C53E0C /* LocalSavedAdvertsController.swift */,
 				84435B902288B6D900C53E0C /* AdvertsTableViewController.swift */,
+				84FF2D2622A850C100DC082E /* LoginVIewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -237,6 +244,8 @@
 			children = (
 				84435BD6228B3C1A00C53E0C /* StringUtils.swift */,
 				84FF2D242294A04D00DC082E /* AdvertDtObject.swift */,
+				84FF2D2822A8527F00DC082E /* SecurityContext.swift */,
+				84FF2D2A22A85E1000DC082E /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -439,9 +448,12 @@
 				84435BC92289F80300C53E0C /* APIResponse.swift in Sources */,
 				84435BC52289E9AB00C53E0C /* Advert.swift in Sources */,
 				84FF2D22229494BD00DC082E /* RealmHelper.swift in Sources */,
+				84FF2D2722A850C100DC082E /* LoginVIewController.swift in Sources */,
 				84435BC72289F66900C53E0C /* API.swift in Sources */,
 				84FF2D252294A04D00DC082E /* AdvertDtObject.swift in Sources */,
+				84FF2D2922A8527F00DC082E /* SecurityContext.swift in Sources */,
 				84435BCB228A039500C53E0C /* UITableViewCell+Extensions.swift in Sources */,
+				84FF2D2B22A85E1000DC082E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
