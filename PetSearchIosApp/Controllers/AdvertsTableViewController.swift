@@ -20,6 +20,7 @@ class AdvertsTableViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        updateAdverts()
         super.viewDidAppear(animated)
         NotificationCenter.default.addObserver(self, selector: #selector(onReceiveData(_:)), name: NSNotification.Name(rawValue: "ReceiveData"), object: nil)
     }

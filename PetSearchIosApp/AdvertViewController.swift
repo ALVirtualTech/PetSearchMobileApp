@@ -21,6 +21,7 @@ class AdvertViewController: UIViewController {
     
     @IBAction func backBtnClickAction(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+        NotificationCenter.default.post(name: Notification.Name("ReceiveData"), object: nil)
     }
     
     @IBAction func saveLocalClickAction(_ sender: Any) {

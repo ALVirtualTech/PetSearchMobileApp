@@ -9,7 +9,6 @@
 import Foundation
 import RealmSwift
 
-//TODO: сделать синглетоном
 class RealmHelper {
     // Get the default Realm
     static let uiRealm = try! Realm()
